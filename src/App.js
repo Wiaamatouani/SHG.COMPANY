@@ -2,10 +2,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import './index.css';
 import Home from "./pages/home" 
-
-
-import Footer from "./layouts/footer";
-
 function App() {
   return (
     <>
@@ -14,7 +10,7 @@ function App() {
  
         
       </Routes>
-      <Footer/>
+      
     </>
   );
 }
