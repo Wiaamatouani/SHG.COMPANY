@@ -4,5 +4,6 @@ export default {
     logow : require("../assets/images/logow.png"),
 
     logaf : require("../assets/images/logof.png"),
+    homeimg : require("../assets/images/homeimg.jpg"),
 
 }

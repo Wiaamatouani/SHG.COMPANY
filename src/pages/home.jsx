@@ -3,7 +3,7 @@ import React from "react";
 import { Menu, X } from 'lucide-react';
 import logo from "../assets/images/logo.png"
 import logow from "../assets/images/logow.png"
-
+import homeimg from "../assets/images/homeimg.jpg"
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -116,7 +116,7 @@ const Home = () => {
        
       </div>
     </div>
-    <img src="https://i.pinimg.com/736x/4f/3c/88/4f3c880355bc2cd0be2704978ae9b195.jpg" alt="" className="w-full rounded-2xl p-2 h-48 object-cover sm:h-screen sm:w-4/12" />
+    <img src={homeimg} alt="" className="w-full rounded-2xl p-2 h-48 object-cover sm:h-screen sm:w-4/12" />
   </div>
   <section id="About" class="py-20 -mb-8 px-6 md:px-12 lg:px-20">
     <div class="mx-auto max-w-6xl">
